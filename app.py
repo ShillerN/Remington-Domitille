@@ -89,6 +89,23 @@ with st.container():
         st.write('Daily updating')
         st.markdown("[Shipments & Payments>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/e7f1a8a6-5c23-451a-a548-2255754b25d7/ReportSection2f2179ab19034011e310?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
                 
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(payments)
+    with text_column:
+        st.subheader("Daily Shipments & IMS")
+        st.write(
+            """
+            
+            
+            """
+        )
+        st.write("##")
+        st.write('Daily updating')
+        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/Daily%20Shipments%20%26%20IMS.xlsx?d=wae0baf0f0f5147518696f3946670e308&csf=1&web=1&e=Hbaf2M)")
+      
  
 with st.container():
     st.write("##")

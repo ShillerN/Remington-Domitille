@@ -30,6 +30,7 @@ som = Image.open("images/som.png")
 av = Image.open("images/av.png")
 bonds = Image.open("images/bonds.png")
 avd = Image.open("images/avd.png")
+dailyims = Image.open("images/imsdaily.png")
    
 # ---- SUBHEADER----
 with st.container():
@@ -93,7 +94,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(payments)
+        st.image(dailyims)
     with text_column:
         st.subheader("Daily Shipments & IMS")
         st.write(

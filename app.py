@@ -144,7 +144,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(ds)
+        st.image(wo)
     with text_column:
         st.subheader("Weekly Offtakes")
         st.write(

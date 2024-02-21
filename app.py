@@ -31,7 +31,9 @@ av = Image.open("images/av.png")
 bonds = Image.open("images/bonds.png")
 avd = Image.open("images/avd.png")
 dailyims = Image.open("images/imsdaily.png")
-   
+ds = Image.open("images/ds.png")
+wo = Image.open("images/wo.png")
+
 # ---- SUBHEADER----
 with st.container():
     #st.write("---")
@@ -122,6 +124,36 @@ with st.container():
         st.write("##")
         st.write('Weekly updating')
         st.markdown("[SoM By Clients>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/IMS/VolumePerformance/01_SoM%20By%20Clients.xlsx?d=wf4a08fce5bf1452cbb85897d449a5ee4&csf=1&web=1&e=DEouUr)")
+ 
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(ds)
+    with text_column:
+        st.subheader("SFP Offtakes")
+        st.write(
+            """   
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[SFP Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/SFP%20Offtakes.xlsx?d=wf4eac523dea34121b6cbc15eb9fb93ee&csf=1&web=1&e=4dqrhy)")
+ 
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(ds)
+    with text_column:
+        st.subheader("Weekly Offtakes")
+        st.write(
+            """   
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[Weekly Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/Weekly%20Offtakes.xlsx?d=wfd4d36b41fc14832b6ab1995809b5278&csf=1&web=1&e=qf4J9b)")
  
                 
 with st.container():

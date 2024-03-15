@@ -33,6 +33,7 @@ avd = Image.open("images/avd.png")
 dailyims = Image.open("images/imsdaily.png")
 ds = Image.open("images/ds.png")
 wo = Image.open("images/wo.png")
+terminal = Image.open("images/terminal.png")
 
 # ---- SUBHEADER----
 with st.container():
@@ -91,6 +92,24 @@ with st.container():
         st.write("##")
         st.write('Daily updating')
         st.markdown("[Shipments & Payments>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/e7f1a8a6-5c23-451a-a548-2255754b25d7/ReportSection2f2179ab19034011e310?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(terminal)
+    with text_column:
+        st.subheader("Terminal")
+        st.write(
+            """
+            Report includes daily/weekly dynamics of IMS & Shipments and SFP Offtakes by Channel.
+            
+            """
+        )
+        st.write("##")
+        st.write('Daily updating')
+        st.markdown("[Terminal>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/665725a4-f079-4a02-b7e4-d2bec7c5d6b6/ReportSection8cce3749bde4240cb714?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
+
                 
 with st.container():
     st.write("##")

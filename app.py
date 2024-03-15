@@ -33,7 +33,7 @@ avd = Image.open("images/avd.png")
 dailyims = Image.open("images/imsdaily.png")
 ds = Image.open("images/ds.png")
 wo = Image.open("images/wo.png")
-terminal = Image.open("images/terminal.png")
+terminal = Image.open("images/Terminal.png")
 
 # ---- SUBHEADER----
 with st.container():

@@ -99,7 +99,7 @@ with st.container():
     with image_column:
         st.image(terminal)
     with text_column:
-        st.subheader("Terminal")
+        st.subheader("Cockpit")
         st.write(
             """
             Report includes daily/weekly dynamics of IMS & Shipments and SFP Offtakes by Channel.
@@ -108,7 +108,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[Terminal>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/665725a4-f079-4a02-b7e4-d2bec7c5d6b6/ReportSection8cce3749bde4240cb714?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
+        st.markdown("[Cockpit>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/a1881341-d356-44d4-aabc-d8a701c9397e/ReportSectionbc9a21e69567841abcb0?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
 
                 
 with st.container():

@@ -110,7 +110,24 @@ with st.container():
         st.write('Daily updating')
         st.markdown("[Cockpit>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/a1881341-d356-44d4-aabc-d8a701c9397e/ReportSectionbc9a21e69567841abcb0?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
 
-                
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(bonds)
+    with text_column:
+        st.subheader("ILUMA")
+        st.write(
+            """
+            
+            
+            """
+        )
+        st.write("##")
+        st.write('Daily updating')
+        st.markdown("[ILUMA>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/ILUMA%20%26%20Terea.xlsx?d=wf6082683223447038b4d05b75fd43697&csf=1&web=1&e=Y5PHWg)")
+   
+
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
@@ -210,23 +227,7 @@ with st.container():
         st.write('Daily updating')
         st.markdown("[Availability with Distributor>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/Desktop/Availability/Availability_with_Distr.xlsx?d=w8d4ed320a1274e26bf59c4841b603949&csf=1&web=1&e=8mzrAR)")
    
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(bonds)
-    with text_column:
-        st.subheader("Bonds & Blends")
-        st.write(
-            """
-            
-            
-            """
-        )
-        st.write("##")
-        st.write('Daily updating')
-        st.markdown("[Bonds & Blends>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/BONDS%20%26%20Blends.xlsx?d=wf6082683223447038b4d05b75fd43697&csf=1&web=1&e=XhRiEi)")
-   
+
  
  
 ##python -m streamlit run app.py

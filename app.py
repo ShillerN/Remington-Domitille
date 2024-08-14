@@ -143,7 +143,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/Daily%20Shipments%20%26%20IMS.xlsx?d=wae0baf0f0f5147518696f3946670e308&csf=1&web=1&e=Hbaf2M)")
+        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EebqDpmPyNdArLHHcMzXzxIBdLlcM4OclLSRDbGYiCdzeQ?e=kVHCtL)")
       
  
 with st.container():
@@ -206,26 +206,26 @@ with st.container():
             """
         )
         st.write("##")
-        st.write('Daily updating')
+        st.write('Weekly updating')
         st.markdown("[Availability>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/Desktop/Availability/AvailabilityReport.xlsx?d=w34d8493c8beb4e63a4812dfed77e3dc1&csf=1&web=1&e=OrZ65U)")
    
    
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(avd)
-    with text_column:
-        st.subheader("Availability with Distributor")
-        st.write(
-            """
-            
-            
-            """
-        )
-        st.write("##")
-        st.write('Daily updating')
-        st.markdown("[Availability with Distributor>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/Desktop/Availability/Availability_with_Distr.xlsx?d=w8d4ed320a1274e26bf59c4841b603949&csf=1&web=1&e=8mzrAR)")
+##with st.container():
+##    st.write("##")
+##    image_column, text_column = st.columns((1, 2))
+##    with image_column:
+##        st.image(avd)
+##    with text_column:
+##        st.subheader("Availability with Distributor")
+##        st.write(
+##            """
+##            
+##            
+##            """
+##        )
+##        st.write("##")
+##        st.write('Daily updating')
+##        st.markdown("[Availability with Distributor>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/Desktop/Availability/Availability_with_Distr.xlsx?d=w8d4ed320a1274e26bf59c4841b603949&csf=1&web=1&e=8mzrAR)")
    
 
  

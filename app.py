@@ -116,7 +116,7 @@ with st.container():
     with image_column:
         st.image(bonds)
     with text_column:
-        st.subheader("ILUMA")
+        st.subheader("RRP Orders")
         st.write(
             """
             
@@ -125,7 +125,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[ILUMA>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/ILUMA%20%26%20Terea.xlsx?d=wf6082683223447038b4d05b75fd43697&csf=1&web=1&e=Y5PHWg)")
+        st.markdown("[RRP Orders>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/ILUMA%20%26%20Terea.xlsx?d=wf6082683223447038b4d05b75fd43697&csf=1&web=1&e=Y5PHWg)")
    
 
 with st.container():

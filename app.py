@@ -143,7 +143,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EebqDpmPyNdArLHHcMzXzxIBdLlcM4OclLSRDbGYiCdzeQ?e=kVHCtL)")
+        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EYdNkvmXRO5Cj1C-i9qt8dgBFlQzXNxqeAGKE4FnajVlYw?e=a2ABJK)")
       
  
 with st.container():

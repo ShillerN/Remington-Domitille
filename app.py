@@ -80,40 +80,6 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(payments)
-    with text_column:
-        st.subheader("Shipments & Payments")
-        st.write(
-            """
-            Report includes customer balance, payments shedule and shipments. 
-            
-            """
-        )
-        st.write("##")
-        st.write('Daily updating')
-        st.markdown("[Shipments & Payments>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/e7f1a8a6-5c23-451a-a548-2255754b25d7/ReportSection2f2179ab19034011e310?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
-
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(terminal)
-    with text_column:
-        st.subheader("Cockpit")
-        st.write(
-            """
-            Report includes daily/weekly dynamics of IMS & Shipments and SFP Offtakes by Channel.
-            
-            """
-        )
-        st.write("##")
-        st.write('Daily updating')
-        st.markdown("[Cockpit>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/a1881341-d356-44d4-aabc-d8a701c9397e/ReportSectionbc9a21e69567841abcb0?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
-
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
         st.image(bonds)
     with text_column:
         st.subheader("RRP Orders")

@@ -35,6 +35,7 @@ ds = Image.open("images/ds.png")
 wo = Image.open("images/wo.png")
 terminal = Image.open("images/Terminal.png")
 ka = Image.open("images/ka.png")
+KAGTW = Image.open("images/KAGTW.png")
 
 # ---- SUBHEADER----
 with st.container():
@@ -86,13 +87,33 @@ with st.container():
         st.subheader("KA Cockpit")
         st.write(
             """
-            
+            Offtakes by Customers 
+            \nSource: Offtakes and Shipments (ATB)
             
             """
         )
         st.write("##")
         st.write('Weekly updating')
         st.markdown("[KA Cokpits>](https://app.powerbi.com/links/vFK1K7BClH?ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&pbi_source=linkShare&bookmarkGuid=fbf4af0d-1e33-4efb-b294-2fe3c0ab38d4)")    
+
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(KAGTW)
+    with text_column:
+        st.subheader("Weekly detailed IMS & Shipments")
+        st.write(
+            """
+            Detailed sales info by Customers. 
+            \nSource: Weekly Shipments, IMS 
+            
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[Weekly Report>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EcMDeUOwDPVDpKWsVvc1VgsBdrC4jMDWfigBlElhabUKMQ?e=wfa7ZL)")    
  
 with st.container():
     st.write("##")
@@ -103,7 +124,7 @@ with st.container():
         st.subheader("RRP Orders")
         st.write(
             """
-            
+            Source: Orders
             
             """
         )
@@ -121,7 +142,7 @@ with st.container():
         st.subheader("Daily Shipments & IMS")
         st.write(
             """
-            
+            \nSource: Daily Shipments, IMS 
             
             """
         )
@@ -139,6 +160,7 @@ with st.container():
         st.subheader("SoM By Clients")
         st.write(
             """   
+            Source: IMS & Shipment
             """
         )
         st.write("##")
@@ -154,6 +176,7 @@ with st.container():
         st.subheader("SFP Offtakes")
         st.write(
             """   
+            Source: Offtakes
             """
         )
         st.write("##")

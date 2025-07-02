@@ -165,7 +165,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[SoM By Clients>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/IMS/VolumePerformance/01_SoM%20By%20Clients.xlsx?d=wf4a08fce5bf1452cbb85897d449a5ee4&csf=1&web=1&e=DEouUr)")
+        st.markdown("[SoM By Clients>](https://pmicloud-my.sharepoint.com/:x:/g/personal/vmarchuk_pmintl_net/EYFCK-P-90tDtTj1npA59IkBO2doIBx9bADCt4PuCa5DFw?email=Mykhailo.Muller%40pmi.com&e=M0c8Um)")
  
 with st.container():
     st.write("##")

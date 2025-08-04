@@ -94,7 +94,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[KA Cokpits>](https://app.powerbi.com/links/vFK1K7BClH?ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&pbi_source=linkShare&bookmarkGuid=fbf4af0d-1e33-4efb-b294-2fe3c0ab38d4)")    
+        st.markdown("[KA Cokpits>](https://app.powerbi.com/groups/4194aad3-3072-40ef-a58f-777e9c2f5222/reports/1930e2bc-f01e-4df6-ac72-30edf84c234e/634c47140ed346e55e65?ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")    
 
 
 with st.container():

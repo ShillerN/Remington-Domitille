@@ -113,7 +113,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[Weekly Report>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EcMDeUOwDPVDpKWsVvc1VgsBdrC4jMDWfigBlElhabUKMQ?e=wfa7ZL)")    
+        st.markdown("[Weekly Report>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/02_PMU_sales_weekly.xlsx?d=w7585c493c2894b2ca3445ea0657e0caf&csf=1&web=1&e=A94a5j)")    
  
 with st.container():
     st.write("##")
@@ -130,7 +130,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[RRP Orders>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/ILUMA%20%26%20Terea.xlsx?d=wf6082683223447038b4d05b75fd43697&csf=1&web=1&e=Y5PHWg)")
+        st.markdown("[RRP Orders>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/SFP/ILUMA%20%26%20Terea.xlsx?d=w4e5061ea673f4edab9bc196bb5dd299a&csf=1&web=1&e=EfkOfU)")
    
 
 with st.container():
@@ -148,7 +148,7 @@ with st.container():
         )
         st.write("##")
         st.write('Daily updating')
-        st.markdown("[Daily Shipments & IMS>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EYdNkvmXRO5Cj1C-i9qt8dgBFlQzXNxqeAGKE4FnajVlYw?e=a2ABJK)")
+        st.markdown("[Daily Shipments & IMS>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/Daily%20Shipments%20%26%20IMS.xlsx?d=w08e06db63c29460ba1e89d264dd62995&csf=1&web=1&e=hRk9ws)")
       
  
 with st.container():
@@ -165,7 +165,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[SoM By Clients>](https://pmicloud-my.sharepoint.com/:x:/g/personal/vmarchuk_pmintl_net/EYFCK-P-90tDtTj1npA59IkBO2doIBx9bADCt4PuCa5DFw?email=Mykhailo.Muller%40pmi.com&e=M0c8Um)")
+        st.markdown("[SoM By Clients>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/01_SoM%20By%20Clients.xlsx?d=wf6b532d0a80347329757d152f5339edd&csf=1&web=1&e=bqQr8R)")
  
 with st.container():
     st.write("##")
@@ -181,7 +181,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[SFP Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/SFP%20Offtakes.xlsx?d=wf4eac523dea34121b6cbc15eb9fb93ee&csf=1&web=1&e=4dqrhy)")
+        st.markdown("[SFP Offtakes>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/SFP/SFP%20Offtakes.xlsx?d=w273a49326a2148b0bdfc71ad6969ae25&csf=1&web=1&e=pGf8sR)")
  
 with st.container():
     st.write("##")
@@ -214,7 +214,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[Availability>](https://pmicloud-my.sharepoint.com/:x:/r/personal/vmarchuk_pmintl_net/Documents/Desktop/Availability/AvailabilityReport.xlsx?d=w34d8493c8beb4e63a4812dfed77e3dc1&csf=1&web=1&e=OrZ65U)")
+        st.markdown("[Availability>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/AvailabilityReport.xlsx?d=wf1204fd50eaa4a75b207c846b761c0fb&csf=1&web=1&e=bLq3Pz)")
    
    
 ##with st.container():

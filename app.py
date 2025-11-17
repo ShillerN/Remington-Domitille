@@ -94,7 +94,7 @@ with st.container():
         )
         st.write("##")
         st.write('Monthly updating')
-        st.markdown("[KA Cokpits>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EU5ufBhd2nRNro4xZgng0RgBaFeTZ40VYD0Wgqp39eKcsQ?e=EEbqrU)") 
+        st.markdown("[LKA Margin>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EU5ufBhd2nRNro4xZgng0RgBaFeTZ40VYD0Wgqp39eKcsQ?e=EEbqrU)") 
         
 with st.container():
     st.write("##")

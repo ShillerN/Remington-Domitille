@@ -59,24 +59,6 @@ with st.container():
         
         
 # ---- Reports ----
-with st.container():
-    st.write("---")
-    st.header("Power BI & Excel reports")
-    st.write("##")
-    image_column, text_column = st.columns((1, 2 ))
-    with image_column:
-        st.image(digest)
-    with text_column:
-        st.subheader("Digest")
-        st.write(
-            """
-            Weekly IMS and SoM Dynamics by Area, Region, main customer group : NKA, SWH and oth. 
-            \nIncludes Device offtakes and Brand Retail performance. 
-            """
-        )
-        st.write("##")
-        st.write('Weekly updating')
-        st.markdown("[Digest>](https://app.powerbi.com/groups/48aaa182-efc4-40eb-8e6f-ac264bdaea3e/reports/416c1745-f13f-4dad-832c-fafa88a9c70d/ReportSection98cbde60b6649ede16a2?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
 
 with st.container():
     st.write("##")

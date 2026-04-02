@@ -189,14 +189,14 @@ with st.container():
     with image_column:
         st.image(wo)
     with text_column:
-        st.subheader("Weekly Offtakes")
+        st.subheader("Offtakes")
         st.write(
             """   
             """
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[Weekly Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Tasks/Reporting/Weekly%20Offtakes.xlsx?d=wfd4d36b41fc14832b6ab1995809b5278&csf=1&web=1&e=qf4J9b)")
+        st.markdown("[Weekly Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Offtakes%20summary.xlsx?d=wa0671bc2a0ff47dabf6360245ea0444f&csf=1&web=1&e=TfTPQw)")
  
                 
 with st.container():

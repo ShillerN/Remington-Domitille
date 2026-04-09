@@ -37,7 +37,7 @@ terminal = Image.open("images/Terminal.png")
 ka = Image.open("images/ka.png")
 KAGTW = Image.open("images/KAGTW.png")
 margin = Image.open("images/margin.png")
-price = Image.open("images/price.png")
+price = Image.open("images/PriceMonitor.png")
 
 # ---- SUBHEADER----
 with st.container():

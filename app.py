@@ -81,7 +81,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(som)
+        st.image(price)
     with text_column:
         st.subheader("Price Monitor")
         st.write(

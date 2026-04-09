@@ -37,6 +37,7 @@ terminal = Image.open("images/Terminal.png")
 ka = Image.open("images/ka.png")
 KAGTW = Image.open("images/KAGTW.png")
 margin = Image.open("images/margin.png")
+price = Image.open("images/price.png")
 
 # ---- SUBHEADER----
 with st.container():
@@ -64,75 +65,52 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(margin)
+        st.image(som)
     with text_column:
-        st.subheader("LKA Margin")
+        st.subheader("SoM By Clients")
         st.write(
-            """
-            LKA Margin Dynamics
-            \nSource: IMS, Offtakes
-            
-            """
-        )
-        st.write("##")
-        st.write('Monthly updating')
-        st.markdown("[LKA Margin>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EU5ufBhd2nRNro4xZgng0RgBaFeTZ40VYD0Wgqp39eKcsQ?e=EEbqrU)") 
-        
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(ka)
-    with text_column:
-        st.subheader("KA Cockpit")
-        st.write(
-            """
-            Offtakes by Customers 
-            \nSource: Offtakes and Shipments (ATB)
-            
+            """   
+            Source: IMS & Shipment
             """
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[KA Cokpits>](https://app.powerbi.com/groups/4194aad3-3072-40ef-a58f-777e9c2f5222/reports/1930e2bc-f01e-4df6-ac72-30edf84c234e/634c47140ed346e55e65?ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")    
-
-
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(KAGTW)
-    with text_column:
-        st.subheader("Weekly detailed IMS & Shipments")
-        st.write(
-            """
-            Detailed sales info by Customers. 
-            \nSource: Weekly Shipments, IMS 
-            
-            """
-        )
-        st.write("##")
-        st.write('Weekly updating')
-        st.markdown("[Weekly Report>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/02_PMU_sales_weekly.xlsx?d=w7585c493c2894b2ca3445ea0657e0caf&csf=1&web=1&e=A94a5j)")    
+        st.markdown("[SoM By Clients>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/01_SoM%20By%20Clients.xlsx?d=wf6b532d0a80347329757d152f5339edd&csf=1&web=1&e=bqQr8R)")
  
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(bonds)
+        st.image(som)
     with text_column:
-        st.subheader("RRP Orders")
+        st.subheader("Price Monitor")
+        st.write(
+            """   
+            Source: Price by VP
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[Price Monitor>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/IQCvwsvL-MkeRoEi0SgudtePAamxWtM0FzyOypEur7Mv2vQ?email=Mykhailo.Muller%40pmi.com&e=MmHZGk)")
+ 
+                 
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(av)
+    with text_column:
+        st.subheader("Availability")
         st.write(
             """
-            Source: Orders
+            
             
             """
         )
         st.write("##")
-        st.write('Daily updating')
-        st.markdown("[RRP Orders>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/SFP/ILUMA%20%26%20Terea.xlsx?d=w4e5061ea673f4edab9bc196bb5dd299a&csf=1&web=1&e=EfkOfU)")
+        st.write('Weekly updating')
+        st.markdown("[Availability>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/AvailabilityReport.xlsx?d=wf1204fd50eaa4a75b207c846b761c0fb&csf=1&web=1&e=bLq3Pz)")
    
-
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
@@ -149,24 +127,8 @@ with st.container():
         st.write("##")
         st.write('Daily updating')
         st.markdown("[Daily Shipments & IMS>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/Daily%20Shipments%20%26%20IMS.xlsx?d=w08e06db63c29460ba1e89d264dd62995&csf=1&web=1&e=hRk9ws)")
-      
- 
-with st.container():
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(som)
-    with text_column:
-        st.subheader("SoM By Clients")
-        st.write(
-            """   
-            Source: IMS & Shipment
-            """
-        )
-        st.write("##")
-        st.write('Weekly updating')
-        st.markdown("[SoM By Clients>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/01_SoM%20By%20Clients.xlsx?d=wf6b532d0a80347329757d152f5339edd&csf=1&web=1&e=bqQr8R)")
- 
+
+
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
@@ -187,6 +149,23 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
+        st.image(bonds)
+    with text_column:
+        st.subheader("RRP Orders")
+        st.write(
+            """
+            Source: Orders
+            
+            """
+        )
+        st.write("##")
+        st.write('Daily updating')
+        st.markdown("[RRP Orders>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/SFP/ILUMA%20%26%20Terea.xlsx?d=w4e5061ea673f4edab9bc196bb5dd299a&csf=1&web=1&e=EfkOfU)")
+   
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
         st.image(wo)
     with text_column:
         st.subheader("Offtakes")
@@ -198,24 +177,63 @@ with st.container():
         st.write('Weekly updating')
         st.markdown("[Weekly Offtakes>](https://pmicloud-my.sharepoint.com/:x:/r/personal/aradchuk_pmintl_net/Documents/Offtakes%20summary.xlsx?d=wa0671bc2a0ff47dabf6360245ea0444f&csf=1&web=1&e=TfTPQw)")
  
-                
+       
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(av)
+        st.image(ka)
     with text_column:
-        st.subheader("Availability")
+        st.subheader("KA Cockpit")
         st.write(
             """
-            
+            Offtakes by Customers 
+            \nSource: Offtakes and Shipments (ATB)
             
             """
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[Availability>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/AvailabilityReport.xlsx?d=wf1204fd50eaa4a75b207c846b761c0fb&csf=1&web=1&e=bLq3Pz)")
-   
+        st.markdown("[KA Cokpits>](https://app.powerbi.com/groups/4194aad3-3072-40ef-a58f-777e9c2f5222/reports/1930e2bc-f01e-4df6-ac72-30edf84c234e/634c47140ed346e55e65?ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")    
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(margin)
+    with text_column:
+        st.subheader("LKA Margin")
+        st.write(
+            """
+            LKA Margin Dynamics
+            \nSource: IMS, Offtakes
+            
+            """
+        )
+        st.write("##")
+        st.write('Monthly updating')
+        st.markdown("[LKA Margin>](https://pmicloud-my.sharepoint.com/:x:/g/personal/aradchuk_pmintl_net/EU5ufBhd2nRNro4xZgng0RgBaFeTZ40VYD0Wgqp39eKcsQ?e=EEbqrU)") 
+        
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(KAGTW)
+    with text_column:
+        st.subheader("Weekly detailed IMS & Shipments")
+        st.write(
+            """
+            Detailed sales info by Customers. 
+            \nSource: Weekly Shipments, IMS 
+            
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[Weekly Report>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/02_PMU_sales_weekly.xlsx?d=w7585c493c2894b2ca3445ea0657e0caf&csf=1&web=1&e=A94a5j)")    
+ 
+ 
    
 ##with st.container():
 ##    st.write("##")

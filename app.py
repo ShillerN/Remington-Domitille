@@ -38,6 +38,8 @@ ka = Image.open("images/ka.png")
 KAGTW = Image.open("images/KAGTW.png")
 margin = Image.open("images/margin.png")
 price = Image.open("images/PriceMonitor.png")
+comops = Image.open("images/comops.png")
+
 
 # ---- SUBHEADER----
 with st.container():
@@ -60,7 +62,22 @@ with st.container():
         
         
 # ---- Reports ----
-
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(comops)
+    with text_column:
+        st.subheader("ComOps Cockpit")
+        st.write(
+            """   
+            Source: IMS, Availability, Devices, DTE & LAU
+            """
+        )
+        st.write("##")
+        st.write('Weekly updating')
+        st.markdown("[ComOps Cockpits>](https://app.powerbi.com/groups/9a9e5d6e-bd9e-4df3-989d-2bc52f764079/reports/f6a51ca4-ef37-48a2-bd96-20111aa2463b/c4cdc478550d05ed4800?openReportSource=ReportInvitation&ctid=8b86a65e-3c3a-4406-8ac3-19a6b5cc52bc&experience=power-bi)")
+ 
 with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))

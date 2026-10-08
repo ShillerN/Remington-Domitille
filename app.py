@@ -92,7 +92,7 @@ with st.container():
         )
         st.write("##")
         st.write('Weekly updating')
-        st.markdown("[SoM By Clients>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/01_SoM%20By%20Clients.xlsx?d=wf6b532d0a80347329757d152f5339edd&csf=1&web=1&e=bqQr8R)")
+        st.markdown("[SoM By Clients>](https://pmicloud.sharepoint.com/:x:/r/teams/Reporting-Commercial-Ukraine/Shared%20Documents/General/Reporting/Sales/01_SoM%20By%20Clients.xlsx?d=w265b7bb8c48e4a71a3009fb8fcd5c163&csf=1&web=1&e=Upmyiw)")
  
 with st.container():
     st.write("##")
